@@ -24,8 +24,11 @@ colnames(org)[1] <- 'OrganicPollution'
 # ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 #                                  EXPORT DATA
 # ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+# Change name for uniformity
+OrganicPollution <- org
+
 # Export object as .RData
-save(org, file = './Data/Driver/OrganicPollution.RData')
+save(OrganicPollution, file = './Data/Driver/OrganicPollution.RData')
 
 
 # ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
